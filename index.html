@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang=""en">
+
+    <head>
+        
+        <title> Intro to HTML - Meeting Minutes </title>
+
+        <meta name="author" content="Gwendolyn Wong">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="CSE 110 Lab 2">
+
+        <link rel="icon" type="image/x-icon" href="/smth.ico" /> 
+        
+    </head>
+
+    <body>
+        <main>
+            <header>
+                <h1> CSE 110 Lab 2 Meeting Minutes </h1>
+                <h2> Topic: Learning HTML</h2>
+                <h3> Date: 4/16/24</h3>
+            </header>
+
+            <nav>
+                <ol>
+                    <li><a href="#Attendance List">Attendance List</a></li>
+                    <li><a href="#Agenda">Agenda</a></li>
+                    <li><a href="#Unfinished Business">Unfinished Business</a></li>
+                    <li><a href="#New Business">New Business</a></li>
+                    <li><a href="#Miscellaneous">Miscellaneous</a></li>
+                    <li><a href="#Form">Form</a></li>
+                </ol>
+            </nav>
+
+            <div>
+                <p>
+                    <span>Panera Bread</span> has good bread bowls. So does <span>Disneyland</span>. 
+                </p>
+            </div>
+            
+            <hr>
+
+            <a id="Attendance List">
+                <section>
+                    <h2> Attendance List </h2>
+                    <ul>
+                        <li>One Fish</li>
+                        <li>Two Fish</li>
+                        <li>Red Fish</li>
+                        <li>Blue Fish</li>
+                    </ul>
+                </section>
+            </a>
+
+            <hr>
+
+            <a id="Agenda">
+                <section>
+                    <h2>Agenda</h2>
+                    <p>
+                        <b>Let's</b><i> assume</i><strong> something </strong> <em> is </em> <br />
+                        written here that should be talked about. 
+                    </p>
+                </section>
+            </a>
+
+            <hr>
+
+            <a id="Unfinished Business">
+                <section>
+                    <h2>Unfinished Business</h2>
+                    <p>Apparently Rotten Tomatoes says this is a really bad movie...</p>
+                    <img src="/unfinisheBusiness.jpeg" width="200"/>
+                </section>
+            </a>
+
+            <hr>
+
+            <a id="New Business">
+                <section>
+                    <h2>New Business</h2>
+                    <video controls width="400">
+                        <source src="/plantsig.mp4" type="video/mp4" />
+                    </video>
+                </section>
+            </a>
+
+            <hr>
+
+            <a id="Miscellaneous">
+                <section>
+                    <h2>Miscellaneous</h2>
+                    <audio controls  src="/IhadtoImsorry.mp4">
+                    </audio>
+                    <p> OoPs :) </p>
+                    <details>
+                        <summary>More</summary>
+                        I wasn't the first, and I'm sure I won't be the last~
+                    </details>
+                </section>
+            </a>
+
+            <a id="Form">
+                <section>
+                    <h2>Form</h2>
+                    <form>
+                        <fieldset>
+                            <input type="radio" id="an option"/>
+                            <label for="an option">an option</label><br />
+                            <input type="checkbox" id="another option"/>
+                            <label for="another option">oho a checkbox</label><br />
+
+                            <label for="text">text here</label>
+                            <input type="text" id="text"/><br />
+                            
+                            <label for="date">date here</label>
+                            <input type="date" id="date"/><br />
+                            
+                        </fieldset>
+                        
+                        <label for="beeg text">Bunch of text can be written here:</label><br />
+                        <textarea id="beeg text" rows="5" cols="40">Emptyyy~</textarea><br />
+
+                        <label for="mlem choice">Cactus?</label><br />
+                        <input list="mlem" id="mlem choice">
+                        <datalist id="mlem">
+                            <option value="Yes"></option>
+                            <option value="Also yes"></option>
+                        </datalist> <br />
+
+                        <label for="selection">Make a decision:</label>
+                        <select id="selection">
+                            <option value="hhh">Must I?</option>
+                            <option value="No">No</option>
+                        </select> <br />
+
+                        <button type="button">iM a bUtTOn!!</button>
+                    </form>
+                </section>
+            </a>
+
+
+            <footer>
+                <p> This is my footer! </p>
+            </footer>
+                
+        </main>
+    </body>
+</html>
