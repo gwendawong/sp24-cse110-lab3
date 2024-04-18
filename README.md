@@ -1,3 +1,2 @@
-# Lab 2 - Starter
+URL to my *new* publsihed site: https://gewnwong.github.io/sp24-cse110-lab3
 
-URL to my publsihed site: https://gewnwong.github.io/Lab2_Starter/
