@@ -16,12 +16,12 @@ h1 {
 
 .basic_margins {
     margin: auto;
-    padding: 6em;
+    padding: 6em 6em 6px 6cm;
     border: 5px solid hsl(192, 66%, 59%);
 }
 
 .box1 {
-    margin: 10vh;
+    margin: 10vh 12px 12em 10vw;
     border-style: dashed;
     border-color: color(display-p3 1 0.5 0);
     border-width: 0.25cm;
@@ -41,3 +41,29 @@ h1 {
     padding-right: 13px;
     border: 2vw solid color-mix(in srgb, #fa89fa, #dac134);
   }
+
+img, video {
+    max-width: 700px;
+    min-width: 300px;
+}
+
+button:hover {
+    color: rgb(255, 255, 255);
+}
+
+audio:active {
+    border-style: dashed;
+}
+
+ul > li {
+    display: inline;
+}
+
+p ~ p {
+    display: none;
+    background-color: greenyellow;
+}
+
+#back {
+    background-color: aqua;
+}
